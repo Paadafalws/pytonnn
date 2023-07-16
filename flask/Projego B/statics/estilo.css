@@ -1,0 +1,84 @@
+body{
+    padding: 20px;
+    font-weight: #ffff;
+
+}
+.Caixa{
+    display: grid;
+    grid-template-areas: 
+
+ " div-01 div-01 div-01  div-01"
+ " div-02 div-03 div-03  div-03"
+ " div-02 div-05 div-05  div-05"
+ " div-02 div-05 div-05  div-05"
+ " div-02 div-06 div-06  div-06"
+ " div-02 div-06 div-06  div-06"
+ " div-11 div-11 div-11  div-11"
+;
+}
+
+.Caixa {
+    width: 100%;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+
+.div-01{
+    grid-area: div-01;
+
+    
+}
+.div-02{
+    grid-area: div-02;
+    
+
+}
+.div-03{
+    grid-area: div-03;
+
+
+}
+.div-04{
+    grid-area: div-04;
+
+
+}
+.div-05{
+    grid-area: div-05;
+
+
+}
+.div-06{
+    grid-area: div-06;
+
+
+}
+.div-07{
+    grid-area: div-07;
+
+}
+.div-08{
+    grid-area: div-08;
+
+
+}
+.div-09{
+    grid-area: div-09;
+
+ 
+}
+.div-10{
+    grid-area: div-10;
+
+
+}
+.div-11{
+    grid-area: div-11;
+
+
+}
+
+.nav-item:hover .nav-link {
+    color: aliceblue;
+    background-color: #007bff;
+  }
